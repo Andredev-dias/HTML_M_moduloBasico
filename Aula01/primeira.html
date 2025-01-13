@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha primeira página</title>
+    <style>
+      .efeito:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+      }
+      .alinhamento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: cornflowerblue">Bem vindos ao HTML</h1>
+    <p>
+      Esta é minha, <br />
+      primeira página web.
+    </p>
+    <hr />
+    <div style="background-color: #17346b; color: #ffffff">
+      <h1>Título</h1>
+      <h2>Subtítulo</h2>
+      <p>Este é um parágrafo simples</p>
+    </div>
+    <hr />
+    <!-- Este é um comentáio -->
+    <!-- <p>Os comentários não aparecem na página</p> -->
+    <p>Os comentários não aparecem na página</p>
+    <hr />
+    <!-- Formatação de texto -->
+    <p>
+      Lorem, <b>ipsum dolor</b> sit amet consectetur adipisicing elit. Dolores
+      voluptatum asperiores unde repudiandae <i>fuga voluptates</i>, in adipisci
+      est, laudantium rerum, ea explicabo aliquid! Sapiente
+      <u>asperiores culpa nulla aliquid itaque a!</u>
+    </p>
+
+    <p><b>algo</b>, <i>algo aqui tambem</i>, <u>e aqui sublinhado</u></p>
+    <hr />
+    <!-- listas -->
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ul>
+    <ol>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+    </ol>
+    <ul style="list-style: none">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+      <li>Item 6</li>
+      <li>Item 7</li>
+      <li>Item 8</li>
+      <li>Item 9</li>
+      <li>Item 10</li>
+    </ul>
+    <ol style="list-style: none">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+      <li>Item 6</li>
+      <li>Item 7</li>
+      <li>Item 8</li>
+      <li>Item 9</li>
+      <li>Item 10</li>
+    </ol>
+    <hr />
+    <!-- Links -->
+    <a href="https://www.teleton.org.br/" target="_blank">Visite este site</a>
+    <hr />
+    <img
+      src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/8893/live/ac7e5c10-c12f-11ee-896d-39d9bd3cadbb.jpg.webp"
+      alt="Arvore com fundo colorido"
+      width="500px"
+      height="auto"
+    />
+    <br />
+    <img
+      src="./Imagens/imgEx.webp"
+      alt="Arvore com fundo colorido 2"
+      width="300px"
+      height="auto"
+    />
+    <br />
+    <img
+      src="./Imagens/imgEx2.webp"
+      alt="Robo codando"
+      width="300px"
+      height="auto"
+      style="border-radius: 100%"
+    />
+    <br />
+    <img
+      src="./Imagens/imgEx2.webp"
+      alt="Robo codando 2"
+      width="350px"
+      height="auto"
+    />
+    <hr />
+    <!-- Span - tag generica - tag complementar -->
+    <p>Alguma <span style="color: red">coisa</span> escrita</p>
+    <h1>
+      blablabla
+      <span style="text-decoration: underline">lalalalala</span> zuzuzuzuzu
+    </h1>
+    <h4 style="color: blue">
+      Frutas fazem bem a
+      <span style="text-transform: uppercase; color: red">saude</span>
+    </h4>
+    <hr />
+    <!-- Tabelas  -->
+    <table border="1">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+    </table>
+    <hr />
+    <!-- Formulario -->
+    <form>
+      <label for="nome">Nome</label><br />
+      <input type="text" id="nome" name="nome" /><br />
+      <label for="tel">Telefone</label><br />
+      <input type="number" id="tel" name="tel" /><br />
+      <label for="data">Data</label><br />
+      <input type="date" id="data" name="data" /><br /><br />
+      <button type="submit">Enviar</button>
+    </form>
+    <hr />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/E9Rhh4xntmw?si=lJXDfdwL_0Rl-P-F"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <br />
+    <iframe
+      src="https://www.youtube.com/embed/E9Rhh4xntmw?si=gXOsGpW68y-xKfT5"
+      frameborder="0"
+    ></iframe>
+    <hr />
+    <section class="alinhamento">
+      <h2>EXERCICIOS</h2>
+      <div>
+        <button class="efeito" onclick="window.location.href='./exer01.html'">
+          Primeiro
+        </button>
+        <button class="efeito" onclick="window.location.href='./exer02.html'">
+          Segundo
+        </button>
+        <button class="efeito" onclick="window.location.href='./exer03.html'">
+          Terceiro
+        </button>
+        <!-- <a href="./exer01.html">Aqui tb vai</a> -->
+      </div>
+    </section>
+  </body>
+</html>
