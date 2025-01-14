@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 2vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+#projects{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    max-width: 800px;
+    width: 100%;
+}
+
+#projects td, #projects th{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+#projects tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#projects tr:hover{
+    background-color: #72ad42cf;
+    color: white;
+    cursor: crosshair;
+    transition: all 100ms linear;
+}
+
+a{
+    color: #1e3c06cf;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#projects th{
+    height: 30px;
+    text-align: left;
+    background-color: rgb(33, 66, 9);
+    color: white;
+}
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy */
+
+form{
+    background-color: rgb(33, 66, 9);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-self: left;
+}
+
+label{
+    font-size: 18px;
+    line-height: 5px;
+    margin-bottom: -5px;
+    margin-left: 12px;
+}
+input, button{
+    padding: 10px;
+    border-radius: 999px;
+    border: none;
+}
+input{
+    padding-left:14px;
+}
+button{
+    background-color: #72ad42cf;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: all 200ms linear;
+}
+button:hover{
+    transition: all 200ms linear;
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+input::placeholder{
+    padding-left:4px;
+}
+
+.btn{
+    width: 100px;
+    font-size: 16px;
+}
+
+.wrap-img-p{
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+}
+
+.img-style{
+    width: 100px;
+    border-radius: 100%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+p{
+    color:  rgb(33, 66, 9);
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 18px;
+}
+h1, h2{
+    color:  rgb(13, 29, 2);
+}
