@@ -28,10 +28,10 @@
       }
       section {
         padding-top: 6vh;
-        height: 1000px;
+        height: 100vh;
         width: 100%;
       }
-      #s1, #s2{
+      #s1, #s2, #s3{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -44,6 +44,9 @@
       #s2{
         padding: 50px;
         gap: 4vh;
+      }
+      #s3{
+        margin-top: -20vh;
       }
       .carousel{
         width: auto !important;
@@ -123,13 +126,13 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./01.webp" class="d-block w-100" alt="...">
+                    <img src="./animal01.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="./05.png" class="d-block w-100" alt="...">
+                    <img src="./animal02.jpg" class="d-block w-100" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="./03.webp" class="d-block w-100" alt="...">
+                    <img src="./animal03.jpeg" class="d-block w-100" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -180,6 +183,21 @@
       </section>
       <section id="s3">
         <h2>Section 03</h2>
+        <form style="width: auto; padding: 30px; background-color: rgba(116, 164, 206, 0.727);box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;" action="">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Telefone</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="(99)999999999" required>
+              </div>
+              <button style="width: 100%;" type="button" class="btn btn-primary">Primary</button>
+        </form>
       </section>
       <section id="s4">
         <h2>Section 04</h2>
